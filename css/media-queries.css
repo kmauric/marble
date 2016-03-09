@@ -1,0 +1,157 @@
+@media screen and (max-width: 960px) {
+	
+	.branding {
+		padding-top: 35px;
+	}
+	
+	.branding li {
+		width: 42%;
+		margin: 25px 4%;
+	}
+	
+	.quote blockquote {
+		width: 90%;
+		padding: 0 5%;
+	}
+	
+	footer ul {
+		width: 45%;
+		margin-left: 5%;
+	}
+	
+	footer ul:nth-child(odd) {
+		clear: both;
+	}
+	
+	footer ul:nth-child(1),
+	footer ul:nth-child(2) {
+		margin-bottom: 0;
+	}
+	
+}
+
+@media screen and (max-width: 768px) {
+	
+	.logo {
+		float: none;
+		width: 100%;
+		font-size: 50px;
+		text-align: center;
+		margin-bottom: 30px;
+	
+	}
+	
+	.main-nav {
+		float: none;
+	}
+	
+	.main-nav li {
+		width: 16.67%;
+		text-align: center;
+	}
+	
+	.latest-works h2 {
+		text-align: center;
+		font-size: 22px;	
+	}
+	
+	.latest-works li:nth-child(2) {
+		margin: 40px 20%;
+	}
+	
+	.latest-works li {
+		float: none;
+		width: 60%;
+		margin: 40px 20%; 
+	}
+	
+}
+
+@media screen and (max-width: 480px) {
+	
+	header {
+		padding-bottom: 0;
+	}
+	
+	header .container {
+		padding: 0;
+		width: 100%;
+	}
+	
+	header .main-nav {
+		background: #555;
+		margin-bottom: 0;
+		opacity: 0.9;
+	}
+	
+	header .main-nav ul {
+		height: 0;
+		overflow: hidden;
+	}
+	
+	header .main-nav ul.show {
+		height: auto;
+	}
+	
+	header .main-nav li {
+		float: none;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	
+	header .main-nav a:link,
+	header .main-nav a:visited {
+		display: block;
+		text-align: center;
+		font-size: 18px;
+		padding: 10px;
+		color: #888;
+		border-top: 1px dashed #777;
+	}
+	
+	.main-nav a.active, 
+	.main-nav a:hover {
+		color: #4ec6af !important;
+	}
+	
+	.burger-nav {
+		width: 100%;
+		height: 40px;
+		background: url(../img/img_burger-nav2.png) 95% center no-repeat;
+		background-size: 30px 30px;
+		cursor: pointer;
+	}
+	
+	
+	.branding li {
+		float: none;
+		width: 80%;
+		margin: 30px 10%;
+		
+	}
+	
+	.latest-works li {
+		width: 80%;
+		margin: 30px 10% !important;
+		text-align: center;
+	}
+	
+	.quote blockquote {
+		width: 90%;
+		padding: 0 5%;
+		font-size: 16px;
+	}
+	
+	footer ul {
+		float: none;
+		width: 80%;
+		margin: 30px 10%;
+		border-bottom: 2px dashed #363636;
+		padding-bottom: 20px;
+	}
+	
+	footer ul:last-of-type {
+		border: none;
+	}
+}
